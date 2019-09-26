@@ -4,9 +4,9 @@ class Student < User
     @knowledge = []
   end
   
-  def learn
-    string = Teacher.teach
-    @knowledge << string
+  def learn(knowledge)
+    @knowledge << knowledge
   end
+    
 
 end
